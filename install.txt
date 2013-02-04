@@ -1,0 +1,74 @@
+1) Unpack "contactus-v.1.2.rar" in the site root or copy the files from the archive in their coresponding folders in the site root.
+	For Example:
+	All .php files (located in: root\cmp) have to be placed in cmp folder (located in: root\cmp) of the site root.
+	
+	Note: Repeated this action for all files from the archive.
+
+2) Create a component (Go to Control Panel(cp) -> System -> Components ->  Add) and set the following values:
+	2.1) system name 						-> contacts
+	2.2) public name 						-> Contacts
+	2.3) PHP Class Name 					-> cmp/ContactUs
+	2.4) Participate in Admin Menu Group	-> check
+
+	and click Save.
+	
+3) Create a page (Go to Control Panel(cp) -> System -> Pages -> Add) and set the following values :
+	3.1) system name 		-> contacts
+	3.2) public name 		-> Contacts
+	3.3) component name 	-> contacts
+
+	and click Save.
+	
+4) Open the Frontend of the website and click Contacts from the menu or go to URL http://your_site_domain/contacts/	
+
+5) The names of the fields will be displayed in square brackets []. This indicates that there are no translations for these system strings.
+	In order to add translations for the system strings you can do either of the following:
+	5.1) You can manualy add the translations for a language of your choice:
+		5.1.1) Go to Control Panel(cp) -> System -> Lanuages -> Language variables
+		5.1.2) Click Add and set the system string from the Contacts page (for example contact_user_name) that you see in the Frontend as value of the Name field. Then set the translation you prefer to represent this system string.
+
+	5.2.) You can import the en.ini file located in the package root folder:
+		5.2.1) Go to Control Panel(cp) -> System -> Lanuages and click "Import a File" for the language
+		5.2.2) Select the en.ini file (located in the package root folder) and click "Import from a File".
+
+6) Module Settings options:
+
+	6.1) Copy to Base 
+		- If set to Yes will save a copy of all emails in the database, and thay will be available in the backend.
+
+	6.2) Email Template
+		- If you want a specific template for the emails place the .tpl file in tpl folder (located	in: themes/your_theme/tpl ) in the site's root. Then add in this field the name of the .tpl (for example: emailtemaplte.tpl)
+
+	6.3) Allow HTML E-mail 
+		- Allows HTML formating of the e-mail
+
+	6.4) Prefix
+		- If there is more than one contact form in one page use Prefix to give each unique ID.
+		- Any string can be a value
+
+	6.5) Contacts E-mails 	
+		- Add e-mails that will receive the messages from the contact form.
+		- Type an e-mail in the first field and use the + button to add it to the list of recipients.
+		- In order to delete an e-mail form the list click on it and then delete.
+
+	6.6) Capcha Settings
+		- Changing the look of the Capcha is allowed. All the possible variants are showed in the list. Double click it if you want to edit.
+
+	6.7) Allow File Attachment 
+		- Use it to enable or disable File Attachments for the form
+
+	6.8) Maximum Attachment size
+		- Maximum file size for the attachements. Could be any number.
+		- For Kilobyte - add "K" after the number with no space
+		- For Megabytes - add "M" after the number with no space
+		- For Gigabytes - add "G" after the number with no space
+
+	6.9) Upload Folder
+		- Folder location to store the attachments.
+
+	6.10) Allowed File Types
+		- List file extensions permitted for upload separated with comma, for example jpg,jpeg,gif,png
+
+That is all :)
+
+Thank you for your interest and enjoy SBND F&CMS - Framework & CMS for PHP developers.
