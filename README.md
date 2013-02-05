@@ -7,3 +7,5 @@ Contacts us component generates a contact form that supports WYSIWYG editor for 
 
 backend component(s) : YES 
 frontend component(s): YES
+
+For more information: http://fcms.sbnd.net/
