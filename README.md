@@ -1,11 +1,14 @@
-sbnd_fcms_contactus
+<a href="http://fcms.sbnd.net">
+  <img src="http://fcms.sbnd.net/upload/logo.png">
+</a>
+# [Contact us Component](http://fcms.sbnd.net/en/download/) 
+
 ===================
 
-Contact us package
+Contacts us component presents a ready to use contact form that supports WYSIWYG controlled message field, availability to allow attachments in different formats, availability to save the contact form information into the database and afterwards manage it from the Backend. 
 
-Contacts us component generates a contact form that supports WYSIWYG editor for message field, document attachment and records in a database.
+**The component has:**
+- backend part, accessible from backend login form : domain/cp
+- frontend part visible for the site visitors
 
-backend component(s) : YES 
-frontend component(s): YES
-
-For more information: http://fcms.sbnd.net/
+For more information: **http://fcms.sbnd.net/**
