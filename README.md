@@ -5,10 +5,10 @@
 
 ===================
 
-Contacts us component presents a ready to use contact form that supports WYSIWYG controlled message field, availability to allow attachments in different formats, availability to save the contact form information into the database and afterwards manage it from the Backend. 
+This component presents a ready to use contact form that supports WYSIWYG controlled message field. It also allows attaching files in different formats, saving the contact form information into the database and managing that information from the backend. 
 
-**The component has:**
-- backend part, accessible from backend login form : domain/cp
-- frontend part visible for the site visitors
+The component has:
+- Backend part, accessible from the administration panel form: domain/cp.
+- Frontend part, visible for the site's visitors.
 
-For more information: **http://fcms.sbnd.net/**
+For more information, see: **http://fcms.sbnd.net/**
